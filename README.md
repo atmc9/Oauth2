@@ -38,17 +38,17 @@
 
    OAuth defines four roles:
 
-   o **resource owner**
+   **resource owner**
       An entity capable of granting access to a protected resource. When the resource owner is a person, it is referred to as an
       end-user.
 
-   o **resource server**
+   **resource server**
       The server hosting the protected resources, capable of accepting and responding to protected resource requests using access tokens.
 
-   o **client**
+   **client**
       An application making protected resource requests on behalf of the resource owner and with its authorization.  The term "client" does not imply any particular implementation characteristics (e.g.,whether the application executes on a server, a desktop, or other devices).
 
-   o **authorization server**
+   **authorization server**
       The server issuing access tokens to the client after successfully authenticating the resource owner and obtaining authorization.
 
    The interaction between the authorization server and resource server is beyond the scope of this specification. The authorization server may be the same server as the resource server or a separate entity. A single authorization server may issue access tokens accepted by multiple resource servers.
