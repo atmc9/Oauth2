@@ -3,20 +3,19 @@
 * Why do we need OAuth2 standard, why cannot we share username and password with 3rd party applications?
   
    In the traditional client-server authentication model, the client requests an access-restricted resource (protected resource) on the
-   server by authenticating with the server using the resource owner's credentials.  In order to provide third-party applications access to
-   restricted resources, the resource owner shares its credentials with the third party.  This creates several problems and limitations:
+   server by authenticating with the server using the resource owner's credentials.  In order to provide third-party applications access    to restricted resources, the resource owner shares its credentials with the third party. This creates several problems and    limitations:
 
-   o  Third-party applications are required to store the resource owner's credentials for future use, typically a password in clear-text.
+   o Third-party applications are required to store the resource owner's credentials for future use, typically a password in clear-text.
 
-   o  Servers are required to support password authentication, despite the security weaknesses inherent in passwords.
+   o Servers are required to support password authentication, despite the security weaknesses inherent in passwords.
 
-   o  Third-party applications gain overly broad access to the resource owner's protected resources, leaving resource owners without any
-      ability to restrict duration or access to a limited subset of resources.
+   o Third-party applications gain overly broad access to the resource owner's protected resources, leaving resource owners without any
+     ability to restrict duration or access to a limited subset of resources.
 
-   o  Resource owners cannot revoke access to an individual third party without revoking access to all third parties, and must do so by
-      changing the third party's password.
+   o Resource owners cannot revoke access to an individual third party without revoking access to all third parties, and must do so by
+     changing the third party's password.
       
-   o  Compromise of any third-party application results in compromise of the end-user's password and all of the data protected by that password.
+   o Compromise of any third-party application results in compromise of the end-user's password and all of the data protected by that password.
    
 * How does OAuth helps?
 
