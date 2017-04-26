@@ -56,6 +56,7 @@
 ![OAuth abstract flow](http://i.imgur.com/4eAzc9U.png "Oauth Abstract flow")
 
  The abstract OAuth 2.0 flow describes the interaction between the four roles and includes the following steps: 
+  
   (A) The client requests authorization from the resource owner. The authorization request can be made directly to the resource owner (as shown), or preferably indirectly via the authorization server as an intermediary. 
   
   (B) The client receives an authorization grant, which is a credential representing the resource owner's authorization, expressed using one of four grant types defined in this specification or using an extension grant type. The authorization grant type depends on the method used by the client to request authorization and the types supported by the authorization server. 
