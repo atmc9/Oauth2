@@ -1,6 +1,6 @@
 # Oauth2
 
-* Why do we need OAuth2 standard, why cannot we share username and password with 3rd party applications?
+* **Why do we need OAuth2 standard, why cannot we share username and password with 3rd party applications?**
   
    In the traditional client-server authentication model, the client requests an access-restricted resource (protected resource) on the
    server by authenticating with the server using the resource owner's credentials.  In order to provide third-party applications access    to restricted resources, the resource owner shares its credentials with the third party. This creates several problems and    limitations:
@@ -17,7 +17,7 @@
       
    o Compromise of any third-party application results in compromise of the end-user's password and all of the data protected by that password.
    
-* How does OAuth helps?
+* **How does OAuth helps?**
 
    OAuth addresses these issues by introducing an authorization layer and separating the role of the client from that of the resource
    owner.  In OAuth, the client requests access to resources controlled by the resource owner and hosted by the resource server, and is
@@ -27,7 +27,7 @@
    specific scope, lifetime, and other access attributes. Access tokens are issued to third-party clients by an authorization server with the
    approval of the resource owner. The client uses the access token to access the protected resources hosted by the resource server.
    
- * Example Scenario where OAuth can be helpful?
+ * **Example Scenario where OAuth can be helpful?**
  
    An end-user (resource owner) can grant a printing service (client) access to her protected photos stored at a photo-
    sharing service (resource server), without sharing her username and password with the printing service.  Instead, she authenticates
